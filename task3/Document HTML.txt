@@ -1,0 +1,59 @@
+
+
+
+
+HTML (HyperText Markup Language) is the standard language used to create and structure web pages. It defines the content of a webpage, such as headings, paragraphs, images, links, tables, and forms.
+
+
+ Why is HTML Important?
+
+* Builds the structure of every website.
+* Easy to learn and use.
+* Works with CSS for styling and JavaScript for interactivity.
+* Supported by all modern web browsers.
+
+
+
+ Most Important HTML Concepts
+
+* Document Structure (`<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`)
+* Headings and Paragraphs
+* Links and Navigation
+* Images
+* Lists
+* Tables
+* Forms
+* Semantic Elements
+* Multimedia (Audio & Video)
+
+ Most Common HTML Tags
+
+ Tag                       Purpose                   
+
+<html>                  Root element of the page  
+<head>                  Contains page information 
+<title>             	Sets the page title
+<body>                  Contains visible content  
+<h1> -<h6>          	Headings                  
+<p>                     Paragraph                 
+<a>                     Hyperlink                 
+<img>                   Display an image          
+<div>                   Generic container         
+<span>                  Inline container          
+<ul> / <ol> / <li>  	Lists                     
+<table>                 Create tables             
+<form>                  Create forms              
+<input>                 User input field          
+<button>                Button                    
+<label>                 Label for form elements   
+<br>                    Line break                
+<hr>                    Horizontal line           
+<section>               Section of content        
+<article>               Independent content       
+<header>                Page or section header    
+<footer>                Page or section footer    
+<nav>                   Navigation links          
+
+ Conclusion
+
+HTML is the foundation of every webpage. It provides the structure and organization of content, making it possible to build websites that can later be styled with CSS and made interactive with JavaScript.
