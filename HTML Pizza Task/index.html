@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Pizza Task</title>
+        <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+      <header>
+            <nav>
+                <a href="#">Main</a>
+                <a href="#">Make an Order</a>
+                <a href="#">Contact Us</a>
+            </nav>
+      </header> 
+      <main>
+            <h1 class="title-main">Black Goose Bistro | Pizza-on-Demand</h1>
+            <p>Our 12" wood-fired pizza are available for delivery, build your custom pizza and we'll deliver it within an hour.</p>
+            <fieldset>
+                <legend>Your Information</legend>
+                <!-- <span>Name:</span>
+                <input type="text">
+                <br>
+                <br>
+                <span>Addrees:</span>
+                <input type="text">
+                <br>
+                <br>
+                <span>Telephone Numper: </span> 
+                <input type="text" > -->
+                
+                <table>
+                    <tr>
+                        <td>Name:</td>
+                        <th><input type="text" ></th>
+                       
+                    </tr>
+                    <tr>
+                        <td>Addrees:</td>
+                        <td><input type="text" ></td>
+                       
+                    </tr>
+                    <tr>
+                        <td>Telephone Numper:</td>
+                        <td><input type="tel" ></td>
+                      
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input type="email" ></td>
+                      
+                    </tr>
+
+                </table>
+                    <p>Delivery Instruction:</p>
+                        
+                    <textarea rows="10" cols="40" placeholder="No more than 400 character long"></textarea>
+
+            </fieldset>
+      </main> 
+
+
+      <section>
+        <h2 class="title-section">Design Your Dream Pizza:</h2>
+        <fieldset>
+            <legend>Pizza specs</legend>
+            <fieldset>
+                <legend>Crust (Choose one):</legend>
+                 <form>
+                        <input type="radio" id="Classic White" name="Crust" value="Classic White">
+                        <label for="html">Classic White</label><br>
+                        <input type="radio" id="Multigrain" name="Crust" value="Multigrain">
+                        <label for="css">Multigrain</label><br>
+                        <input type="radio" id="Choose-stuffed crust" name="Crust" value="Choose-stuffed crust">
+                        <label for="javascript">Choose-stuffed crust</label><br>
+                        <input type="radio" id="Gluten-free" name="Crust" value="Gluten-free">
+                        <label for="javascript">Gluten-free</label>
+                 </form>
+
+            </fieldset>
+            <fieldset>
+                <legend>Toppings (Choose as many as you want):</legend>
+                <form>
+                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Red Sauce">
+                        <label for="vehicle1"> Red Sauce</label><br>
+                        <input type="checkbox" id="vehicle2" name="vehicle2" value="White Sauce">
+                        <label for="vehicle2"> White Sauce</label><br>
+                        <input type="checkbox" id="vehicle3" name="vehicle3" value="Mozzarella Cheese">
+                        <label for="vehicle3"> Mozzarella Cheese</label><br>
+                         <input type="checkbox" id="vehicle1" name="vehicle1" value="Pepperoni">
+                        <label for="vehicle1"> Pepperoni</label><br>
+                        <input type="checkbox" id="vehicle2" name="vehicle2" value="Mushrooms">
+                        <label for="vehicle2"> Mushrooms</label><br>
+                        <input type="checkbox" id="vehicle3" name="vehicle3" value="Peppers">
+                        <label for="vehicle3"> Peppers</label><br>
+                        <input type="checkbox" id="vehicle3" name="vehicle3" value="Anchovies">
+                        <label for="vehicle3"> Anchovies</label>
+                </form>
+            </fieldset>
+            <fieldset>
+                <legend>Number</legend>
+                <label>How many pizza:</label>
+                <input type="number">
+            </fieldset>
+        </fieldset>
+        <br>
+        <input type="button" value="Bring me a pizza!">
+        <input type="reset" value="reset">
+
+
+      </section>
+   
+    
+   </body>
+
+</html>

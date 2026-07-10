@@ -1,0 +1,15 @@
+nav  a{
+    color: red;
+    text-decoration: none;
+    margin-left: 10px;
+
+}
+.title-main{
+    color: brown;
+}
+.title-section{
+    color: rgb(21, 229, 160);
+}
+input[type="number"]{
+    width: 40px;
+}
